@@ -1,4 +1,5 @@
 ﻿using ApprovalWorkflows.BLL.Contract;
+using ApprovalWorkflows.BO.DTOs;
 using ApprovalWorkflows.BO.Entites;
 using ApprovalWorkflows.DAL.Contract;
 using System;
@@ -21,5 +22,19 @@ namespace ApprovalWorkflows.BLL.Implementation
         {
             return _WorkflowRepo.GetAllApprovalWorkflow();
         }
+        public UpdateApprovalWorkflowDto UpdateApprovalWorkflow(int id, UpdateApprovalWorkflowDto updateApprovalWorkflowDto)
+        {
+            return _WorkflowRepo.UpdateApprovalWorkflow(id, updateApprovalWorkflowDto);
+        }
+        public bool DeleteApprovalWorkflow(int id)
+        {
+            return _WorkflowRepo.DeleteApprovalWorkflow(id);
+        }
+        public AddApprovalWorkflowDto AddApprovalWorkflow(AddApprovalWorkflowDto addApprovalWorkflowDto)
+        {
+            return _WorkflowRepo.AddApprovalWorkflow(addApprovalWorkflowDto);
+        }
+
+
     }
 }
