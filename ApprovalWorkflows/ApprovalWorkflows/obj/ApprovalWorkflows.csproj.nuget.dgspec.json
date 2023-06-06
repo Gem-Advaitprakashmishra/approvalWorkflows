@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj": {}
+    "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj": {
+    "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj",
         "projectName": "ApprovalWorkflows.BLL",
-        "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj",
-        "packagesPath": "C:\\Users\\Ankit.Bisht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\obj\\",
+        "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj",
+        "packagesPath": "C:\\Users\\advait.mishra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ankit.Bisht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\advait.mishra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj": {
-                "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj"
+              "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj": {
+                "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj"
               }
             }
           }
@@ -59,8 +63,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,21 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj": {
+    "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj",
+        "projectUniqueName": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj",
         "projectName": "ApprovalWorkflows.BO",
-        "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj",
-        "packagesPath": "C:\\Users\\Ankit.Bisht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\obj\\",
+        "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj",
+        "packagesPath": "C:\\Users\\advait.mishra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ankit.Bisht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\advait.mishra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,8 +131,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -134,21 +140,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj": {
+    "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj",
         "projectName": "ApprovalWorkflows.DAL",
-        "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj",
-        "packagesPath": "C:\\Users\\Ankit.Bisht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\obj\\",
+        "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\ApprovalWorkflows.DAL.csproj",
+        "packagesPath": "C:\\Users\\advait.mishra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ankit.Bisht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\advait.mishra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj": {
-                "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj"
+              "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj": {
+                "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BO\\ApprovalWorkflows.BO.csproj"
               }
             }
           }
@@ -197,8 +207,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -207,21 +216,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj": {
+    "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj",
+        "projectUniqueName": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj",
         "projectName": "ApprovalWorkflows",
-        "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj",
-        "packagesPath": "C:\\Users\\Ankit.Bisht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\obj\\",
+        "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.csproj",
+        "packagesPath": "C:\\Users\\advait.mishra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ankit.Bisht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\advait.mishra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,8 +248,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj": {
-                "projectPath": "C:\\Users\\Ankit.Bisht\\source\\ApprovalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj"
+              "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj": {
+                "projectPath": "C:\\Users\\advait.mishra\\OneDrive - Gemini Solutions\\Desktop\\approvalWorkflows\\approvalWorkflows\\ApprovalWorkflows\\ApprovalWorkflows.BLL\\ApprovalWorkflows.BLL.csproj"
               }
             }
           }
@@ -270,8 +283,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -283,7 +295,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
