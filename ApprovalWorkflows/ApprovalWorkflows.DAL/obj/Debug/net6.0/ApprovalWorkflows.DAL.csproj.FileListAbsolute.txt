@@ -13,3 +13,18 @@ C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflow
 C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.BO.dll
 C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.BO.pdb
 C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.csproj.CopyComplete
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.DAL.deps.json
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.DAL.dll
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.DAL.pdb
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.BO.dll
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\bin\Debug\net6.0\ApprovalWorkflows.BO.pdb
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.csproj.AssemblyReference.cache
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.AssemblyInfoInputs.cache
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.AssemblyInfo.cs
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.csproj.CoreCompileInputs.cache
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.csproj.CopyComplete
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.dll
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\refint\ApprovalWorkflows.DAL.dll
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ApprovalWorkflows.DAL.pdb
+C:\Users\advait.mishra\OneDrive - Gemini Solutions\Desktop\approvalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.DAL\obj\Debug\net6.0\ref\ApprovalWorkflows.DAL.dll
