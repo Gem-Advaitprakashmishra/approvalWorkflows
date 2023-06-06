@@ -1,0 +1,12 @@
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.csproj.AssemblyReference.cache
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.AssemblyInfoInputs.cache
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.AssemblyInfo.cs
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.csproj.CoreCompileInputs.cache
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\bin\Debug\net6.0\ApprovalWorkflows.BO.deps.json
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\bin\Debug\net6.0\ApprovalWorkflows.BO.dll
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\bin\Debug\net6.0\ApprovalWorkflows.BO.pdb
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.dll
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\refint\ApprovalWorkflows.BO.dll
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ApprovalWorkflows.BO.pdb
+C:\Users\Ankit.Bisht\source\ApprovalWorkflows\approvalWorkflows\ApprovalWorkflows\ApprovalWorkflows.BO\obj\Debug\net6.0\ref\ApprovalWorkflows.BO.dll
