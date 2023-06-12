@@ -1,6 +1,5 @@
 ﻿using ApprovalWorkflows.BLL.Contract;
-using ApprovalWorkflows.BO.DTOs;
-using Microsoft.AspNetCore.Http;
+using ApprovalWorkflows.BO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApprovalWorkflows.Controllers
@@ -22,7 +21,7 @@ namespace ApprovalWorkflows.Controllers
             return StatusCode(200, _workflowServices.GetApprovalWorkflow());
         }
         [HttpPost]
-        public IActionResult UpdateApprovalWorkflow(int id , UpdateApprovalWorkflowDto updateApprovalWorkflowDto)
+        public IActionResult UpdateApprovalWorkflow(int id , TemplateBO updateApprovalWorkflowDto)
         {
             return StatusCode(200,_workflowServices.UpdateApprovalWorkflow(id ,updateApprovalWorkflowDto));
         }
@@ -33,7 +32,7 @@ namespace ApprovalWorkflows.Controllers
         }
         [HttpPost]
         [Route("AddWorkflowDetails")]
-        public IActionResult AddApprovalWorkflow(AddApprovalWorkflowDto addApprovalWorkflowDto)
+        public IActionResult AddApprovalWorkflow(TemplateBO addApprovalWorkflowDto)
         {
             return StatusCode(200,_workflowServices.AddApprovalWorkflow(addApprovalWorkflowDto));
         }

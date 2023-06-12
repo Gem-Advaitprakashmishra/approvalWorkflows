@@ -1,5 +1,4 @@
-﻿using ApprovalWorkflows.BO.DTOs;
-using ApprovalWorkflows.BO.Entites;
+﻿using ApprovalWorkflows.BO;
 using ApprovalWorkflows.DAL.Contract;
 using ApprovalWorkflows.DAL.Data;
 using Dapper;
@@ -15,31 +14,31 @@ namespace ApprovalWorkflows.DAL.Implementation
             _context = context;
         }
 
-        public List<ApiBusinessObjects> GetAllApprovalWorkflow()
+        public List<TemplateBO> GetAllApprovalWorkflow()
         {
             var query = "Select * from ApprovalWorkflows";
             using (var connection = _context.CreateConnection())
             {
-                var people = connection.Query<ApiBusinessObjects>(query);
+                var people = connection.Query<TemplateBO>(query);
                 return people.ToList();
             }
         }
-        public UpdateApprovalWorkflowDto UpdateApprovalWorkflow(int id,UpdateApprovalWorkflowDto updateApprovalWorkflowDto)
+        public TemplateBO UpdateApprovalWorkflow(int id, TemplateBO updateTemplate)
         {
             var query = "Update ApprovalWorkflows Set Type =@Type , Name =@Name , Template = @Template where TemplateID =@id";
             {
                 var parameters = new DynamicParameters();
                 parameters.Add("id", id ,DbType.Int64);
-                parameters.Add("Type", updateApprovalWorkflowDto.Type, DbType.String);
-                parameters.Add("Name",updateApprovalWorkflowDto.Name,DbType.String);
-                parameters.Add("Template", updateApprovalWorkflowDto.Template, DbType.String);
+                parameters.Add("Type", updateTemplate.Type, DbType.String);
+                parameters.Add("Name", updateTemplate.Name,DbType.String);
+                parameters.Add("Template", updateTemplate.Template, DbType.String);
                
                 using (var connection = _context.CreateConnection())
                 {
                    var value = connection.Execute(query, parameters);
                     if (value >0)
                     {
-                        return updateApprovalWorkflowDto;
+                        return updateTemplate;
                     }
                     else
                     {
@@ -67,31 +66,28 @@ namespace ApprovalWorkflows.DAL.Implementation
                 }
             }
         }
-        public AddApprovalWorkflowDto AddApprovalWorkflow( AddApprovalWorkflowDto addApprovalWorkflowDto)
+        public TemplateBO AddApprovalWorkflow(TemplateBO addTemplate)
         {
-            var query = "Insert into ApprovalWorkflows (TemplateID,Type,Name,Template) values (@id,@Type,@Name,@Template)";
+            var query = "Insert into ApprovalWorkflows (Type,Name,Template) values (@Type,@Name,@Template)";
             var parameters = new DynamicParameters();
-            parameters.Add("id", addApprovalWorkflowDto.TemplateID, DbType.Int64);
-            parameters.Add("Type", addApprovalWorkflowDto.Type, DbType.String);
-            parameters.Add("Name", addApprovalWorkflowDto.Name, DbType.String);
-            parameters.Add("Template", addApprovalWorkflowDto.Template, DbType.String);
+            parameters.Add("Type", addTemplate.Type, DbType.String);
+            parameters.Add("Name", addTemplate.Name, DbType.String);
+            parameters.Add("Template", addTemplate.Template, DbType.String);
 
             using (var connection = _context.CreateConnection())
             {
                 var value = connection.Execute(query, parameters);
                 if (value > 0)
                 {
-                    return addApprovalWorkflowDto;
+                    return addTemplate;
                 }
                 else
                 {
                     return null;
                 }
             }
-
-
         }
     }
 
-    }
+}
 

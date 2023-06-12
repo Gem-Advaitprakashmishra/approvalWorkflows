@@ -1,38 +1,32 @@
 ﻿using ApprovalWorkflows.BLL.Contract;
-using ApprovalWorkflows.BO.DTOs;
-using ApprovalWorkflows.BO.Entites;
+using ApprovalWorkflows.BO;
 using ApprovalWorkflows.DAL.Contract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ApprovalWorkflows.BLL.Implementation
 {
     public class ApprovalWorkflowServices : IApprovalWorkflowServices
     {
-        private IApprovalWorkflowRepository _WorkflowRepo;
+        private IApprovalWorkflowRepository _workflowRepo;
 
-        public ApprovalWorkflowServices(IApprovalWorkflowRepository WorkflowRepo)
+        public ApprovalWorkflowServices(IApprovalWorkflowRepository workflowRepo)
         {
-            _WorkflowRepo = WorkflowRepo;
+            _workflowRepo = workflowRepo;
         }
-        public List<ApiBusinessObjects> GetApprovalWorkflow()
+        public List<TemplateBO> GetApprovalWorkflow()
         {
-            return _WorkflowRepo.GetAllApprovalWorkflow();
+            return _workflowRepo.GetAllApprovalWorkflow();
         }
-        public UpdateApprovalWorkflowDto UpdateApprovalWorkflow(int id, UpdateApprovalWorkflowDto updateApprovalWorkflowDto)
+        public TemplateBO UpdateApprovalWorkflow(int id, TemplateBO updateTemplate)
         {
-            return _WorkflowRepo.UpdateApprovalWorkflow(id, updateApprovalWorkflowDto);
+            return _workflowRepo.UpdateApprovalWorkflow(id, updateTemplate);
         }
         public bool DeleteApprovalWorkflow(int id)
         {
-            return _WorkflowRepo.DeleteApprovalWorkflow(id);
+            return _workflowRepo.DeleteApprovalWorkflow(id);
         }
-        public AddApprovalWorkflowDto AddApprovalWorkflow(AddApprovalWorkflowDto addApprovalWorkflowDto)
+        public TemplateBO AddApprovalWorkflow(TemplateBO addTemplate)
         {
-            return _WorkflowRepo.AddApprovalWorkflow(addApprovalWorkflowDto);
+            return _workflowRepo.AddApprovalWorkflow(addTemplate);
         }
 
 
